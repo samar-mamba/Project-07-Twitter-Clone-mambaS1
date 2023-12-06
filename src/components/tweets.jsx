@@ -1,7 +1,7 @@
 import React from 'react';
 import Tweet from "./../components/tweet";
 import tweetimage from "./../images/tweet-image.png"
-import tweetprofil from "./../images/Tweet-Profile-Photo.png"
+import tweetprofil from "./../images/Tweet-Profile-new.png"
 import tweetoiseau from "./../images/Tweet-oiseau.png"
 import cnnprofile from "./../images/cnn-Profile-Photo.png"
 function Tweets() {

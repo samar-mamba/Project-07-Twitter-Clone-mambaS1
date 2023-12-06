@@ -193,3 +193,10 @@ body{
     justify-content: center;
     gap: 20px;
 }
+/* Side bar css */
+.alignement {
+    gap: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
