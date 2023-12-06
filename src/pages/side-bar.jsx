@@ -5,6 +5,8 @@ function SideBar() {
   return (
     <>
       <img src="src/images/Normal.png" alt="pigeon" />
+      <img src="src/images/Normal.png" alt="pigeon" />
+
     </>
   )
 }
