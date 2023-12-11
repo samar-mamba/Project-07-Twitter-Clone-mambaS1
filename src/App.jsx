@@ -1,5 +1,5 @@
 import Home from "./pages/home.jsx";
-import SideBar from "./pages/side-bar.jsx";
+import SideBar from "./components/side-bar.jsx";
 import Layout from "./components/layout.jsx";
 
 import('./style/reset.css');

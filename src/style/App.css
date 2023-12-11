@@ -101,6 +101,7 @@ body{
     background-color: #1D9BF0;
     color: white;
     font-size: 1rem;
+    
 }
 .tweet{
     display: flex;
@@ -195,8 +196,23 @@ body{
 }
 /* Side bar css */
 .alignement {
-    gap: 1rem;
+    /* gap: 1rem;
     margin-top: 1rem;
     display: flex;
     align-items: center;
+     */
+     display: flex;
+  align-items: center;
+  cursor: pointer;
 }
+
+.alignement > h2{
+    padding: 20px;
+}
+
+.alignement > h2 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+    
+  }
