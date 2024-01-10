@@ -8,7 +8,10 @@ import Bookmarksicon from "./../images/Bookmarks.png"
 import listicon from "./../images/Lists.png"
 import profileicon from "./../images/Profile.png"
 import moreicon from "./../images/More.png"
-
+import profilephoto from "./../images/profile-photo.png"
+import profilsetting from "./../images/profile-setting.png"
+import Profile from './profile-photo';
+import ProfileSetting from './profile-setting';
 import SidebarOption from './sidebar-options';
 
 function SideBar() {
@@ -29,7 +32,10 @@ function SideBar() {
         <SidebarOption icon={moreicon} text="More"  />
         <br/>
 
-      <button className='button'>tweet</button>
+        <button className='button'>tweet</button>
+      
+      <Profile icon ={profilephoto} />
+      <ProfileSetting icon ={profilesetting} />
       
     
 
