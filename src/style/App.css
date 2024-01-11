@@ -217,4 +217,6 @@ body{
     margin-right: 20px;
     
   }
-
+.sidebar{
+  display:flex ;
+}

@@ -35,7 +35,7 @@ function SideBar() {
         <button className='button'>tweet</button>
       
       <Profile icon ={profilephoto} />
-      <ProfileSetting icon ={profilesetting} />
+      <ProfileSetting icon ={ profilsetting } />
       
     
 
