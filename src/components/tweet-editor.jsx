@@ -1,6 +1,7 @@
 import React from 'react';
 import Profile from './profile-photo';
 import profilephoto from "./../images/profile-photo.png"
+import Button from './button';
 
 function TweetEditor () {
 return (
@@ -20,8 +21,8 @@ return (
      <button> <img src='src/images/Top-Tweets2.png' alt='media' /> </button>
      
      </div>
+     <Button text="Tweet" className='button ' /> 
      
-     <button className='button'>tweet</button>
    
    </div>
   </div>

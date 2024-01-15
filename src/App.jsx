@@ -1,5 +1,6 @@
 import Home from "./pages/home.jsx";
 import SideBar from "./components/side-bar.jsx";
+import Trend from "./components/trends.jsx";
 import Layout from "./components/layout.jsx";
 
 import('./style/reset.css');
@@ -10,6 +11,7 @@ export default function App() {
     <Layout>
       <SideBar />
       <Home />
+      <Trend /> 
     </Layout>
   );
 }

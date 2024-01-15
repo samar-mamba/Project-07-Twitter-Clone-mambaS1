@@ -13,13 +13,14 @@ import profilsetting from "./../images/profile-setting.png"
 import Profile from './profile-photo';
 import ProfileSetting from './profile-setting';
 import SidebarOption from './sidebar-options';
+import Button from './button';
 
 function SideBar() {
 
   return (
     <div className='sidebar'>
        
-
+      <div> 
       <img src="src/images/Normal.png" alt="pigeon"  /> 
   
         <SidebarOption icon={homeicon} text="Home"  />
@@ -31,13 +32,16 @@ function SideBar() {
         <SidebarOption icon={profileicon} text="Profile"  />
         <SidebarOption icon={moreicon} text="More"  />
         <br/>
-
-        <button className='button'>tweet</button>
+       
+        <Button text="Tweet"  className="sidebar__tweet"/> 
+        </div>
+        <div className='alignement'> 
       
       <Profile icon ={profilephoto} />
       <ProfileSetting icon ={ profilsetting } />
+      <img src="src\images\More-2.png" alt="trois point" />
       
-    
+      </div>
 
     </div>
   )

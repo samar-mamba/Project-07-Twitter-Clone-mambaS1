@@ -19,10 +19,31 @@ function Tweet({ title, value, text, image, tweetProfile }) {
           </div>
         </div>
         <div className="tweet-actions">
-          <img className="tweet-action" src="src/images/Tweet-Replies.png" alt="like" />
-          <img className="tweet-action" src="src/images/Tweet-Replies (1).png" alt="like" />
+          <div className='tweet-icon0 tweet-icon'>
+
+            <img src="src\images\Butonlike.svg" alt="" />  
+             <p>36</p>
+          </div>
+          <div className='tweet-icon1 tweet-icon'>
+
+            <img src="src\images\Butonretweet.svg" alt="" />  
+             <p>36</p>
+          </div>
+          <div className='tweet-icon2 tweet-icon'>
+
+            <img src="src\images\Buton.svg" alt="" />  
+             <p>36</p>
+          </div>
+          <div className='tweet-icon3'>
+
+            <img src="src\images\Butonchare.svg" alt="" />  
+            
+          </div>
+
+          {/* <img className="tweet-action" src="src/images/Tweet-Replies.png" alt="like" /> */}
+          {/* <img className="tweet-action" src="src/images/Tweet-Replies (1).png" alt="like" />
           <img className="tweet-action" src="src/images/Tweet-Replies (2).png" alt="like" />
-          <img className="tweet-action" src="src/images/Tweet-Replies (3).png" alt="like" />
+          <img className="tweet-action" src="src/images/Tweet-Replies (3).png" alt="like" /> */}
         </div>
       </div>
 
