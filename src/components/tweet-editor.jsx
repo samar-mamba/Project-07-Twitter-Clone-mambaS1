@@ -2,13 +2,15 @@ import React from 'react';
 import Profile from './profile-photo';
 import profilephoto from "./../images/profile-photo.png"
 import Button from './button';
+import { NavLink } from "react-router-dom";
 
 function TweetEditor () {
 return (
  <div className="tweet-editor">
-  <div className='avatar'>  
+  <div className='avatar'> 
+  <NavLink to='/profile'> 
   <Profile icon ={profilephoto} />
-  
+  </NavLink>
   </div>
 <div className='tweet-editor-form'> 
   <input className='tweet-editor-input' type= "text" placeholder="What's happening ?" />

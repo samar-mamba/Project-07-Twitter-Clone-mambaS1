@@ -8,10 +8,13 @@ import('./style/App.css');
 
 export default function App() {
   return (
-    <Layout>
-      <SideBar />
-      <Home />
-      <Trend /> 
-    </Layout>
+    <>
+    <SideBar />
+    
+      <Layout>
+      </Layout>
+      <Trend/> 
+      
+    </>
   );
 }

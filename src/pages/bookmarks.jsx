@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "./../components/header";
 
-function Explore() {
+function Bookmarks() {
     return (
       <> 
       <main className="timeline">
@@ -12,4 +12,4 @@ function Explore() {
     );
   }
   
-  export default Explore;
+  export default Bookmarks;

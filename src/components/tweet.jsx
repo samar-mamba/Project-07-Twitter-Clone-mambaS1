@@ -1,11 +1,13 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 
 function Tweet({ title, value, text, image, tweetProfile }) {
 
   return (
     <div className="tweet">
       <div className="tweet-avatar">
-        <img src={tweetProfile} alt="profil" /> </div>
+        <NavLink to='/profile'> 
+        <img src={tweetProfile} alt="profil" /></NavLink> </div>
       <div className="tweet-content">
         <div className="tweet-body">
           <div className="tweet-title">

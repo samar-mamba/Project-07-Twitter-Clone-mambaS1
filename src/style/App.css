@@ -180,6 +180,7 @@ body{
     gap: 5rem;
     color: grey;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 /* .tweet-actions p{
@@ -264,24 +265,7 @@ body{
   
 
   .trends-search{
-    /* display: flex;
-    gap: 25px;
-  align-items: center;
-  background-color: #6E767D;
-  color: white;
-  padding: 10px;
-  border-radius: 42px;
-  margin-top: 10px;
-  margin-left: 20px;
-  width: 350px; */
-
-/*   
-  text-transform: capitalize;
-  width: 290px;
-  height: 22px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; */
+    
   border: none;
   width: 275px;
   height: 22px;
@@ -396,6 +380,7 @@ body{
 .tweet-icon{
     display: flex;
     align-items: center;
+    
 }
 
 .tweet-icon0:hover p {
@@ -429,7 +414,11 @@ body{
         filter: drop-shadow(0 0 100px rgb(122, 29, 192)) drop-shadow(0 0 20px rgb(122, 29, 192))
           drop-shadow(0 0 100px rgb(122, 29, 192));
     }
-  
+
+    .navlink{
+        text-decoration: none;
+        color: white;
+    }  
   
   
   
